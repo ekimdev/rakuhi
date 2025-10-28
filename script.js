@@ -74,6 +74,11 @@ function handleReservation(event) {
     });
 }
 
+// Merchandise add to cart handler
+function handleAddToCart(productName) {
+    alert(`${productName} agregado al carrito`);
+}
+
 // Set minimum date to today
 function setMinDate() {
     const today = new Date();
