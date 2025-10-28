@@ -542,6 +542,19 @@ body {
     letter-spacing: 0.05em;
 }
 
+.btn-menu {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(135deg, #c46d4a, #a85d42);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
 .btn-location:hover {
     background: linear-gradient(135deg, #a85d42, #8a4d35);
     transform: translateY(-2px);
